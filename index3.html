@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DOM Task 3</title>
+
+	<style>
+		.wrapper {
+			width: 50px;
+			height: 150px;
+			margin: 100px 100px;
+			background-color: gray;
+			border: 2px black solid;
+		}
+
+		.wrapper__color1 {
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+			background-color: red;
+			opacity: 0.2;
+		}
+
+		.wrapper__color2 {
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+			background-color: orange;
+			opacity: 0.2;
+		}
+
+		.wrapper__color3 {
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+			background-color: green;
+			opacity: 0.2;
+		}
+
+		.button {
+			margin-left: 100px;
+		}
+
+		.active {
+			opacity: 1;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="wrapper" id="wrapper">
+		<div class="wrapper__color1"></div>
+		<div class="wrapper__color2"></div>
+		<div class="wrapper__color3"></div>
+	</div>
+
+	<button id="btn" class="button">Переключатель</button>
+
+	<script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
